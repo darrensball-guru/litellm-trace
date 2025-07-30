@@ -4,7 +4,7 @@ This project demonstrates how to use `litellm` to send LLM requests and export t
 
 ## Description
 
-The `trace.py` script performs the following actions:
+The `main.py` script performs the following actions:
 1.  Configures OpenTelemetry to use the `CloudTraceSpanExporter`, which sends trace data to your Google Cloud project.
 2.  Activates the `litellm.with_opentelemetry` hook to automatically trace `litellm` API calls.
 3.  Defines a custom callback function to print the model and endpoint for each successful or failed request.
