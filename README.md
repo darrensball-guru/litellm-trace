@@ -14,7 +14,7 @@ The `main.py` script performs the following actions:
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.12+
 - `uv` installed (see https://github.com/astral-sh/uv)
 - A Google Cloud Platform (GCP) project with the Cloud Trace API enabled.
 - Authenticated `gcloud` CLI or Application Default Credentials (ADC) configured in your environment.
