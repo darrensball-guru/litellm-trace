@@ -69,6 +69,8 @@ The primary place to view your traces is the Trace explorer in the Google Cloud 
      If you want a unique span name, see the comment in the code and add a timestamp (mmdd or something that will break it out)
      Then alter what you are looking for span name wise.
 
+     ![Google Cloud Console - Trace Explorer](assets/images/trace_ui.png)
+
 4. **Analyze the Trace View:**
    - Click on your trace in the list to see a detailed "waterfall" graph.
    - **Parent Span:** The top-level span will be named like `gemini-2.5-pro-request`. Clicking on this shows its details, including the `llm.response.summary` attribute added in the code.
